@@ -1,0 +1,298 @@
+{
+    "dispcnt":
+    {
+        "address": "0x04000000",
+        "size": 16,
+        "access": "rw",
+        "human_name": "display control"
+        "alt_name": null
+    },
+    "dispstat":
+    {
+        "address": "0x04000004",
+        "size": 16,
+        "access": "rw",
+        "human_name": "display status",
+        "alt_name": null
+    },
+    "vcount":
+    {
+        "address": "0x04000006",
+        "size": 8,
+        "access": "r",
+        "human_name": "vertical counter",
+        "alt_name": null
+    },
+    "bg0cnt":
+    {
+        "address": "0x04000008",
+        "size": 16,
+        "access": "rw",
+        "human_name": "background 0 control",
+        "alt_name": null
+    },
+    "bg1cnt":
+    {
+        "address": "0x0400000A",
+        "size": 16,
+        "access": "rw",
+        "human_name": "background 1 control",
+        "alt_name": null
+    },
+    "bg2cnt":
+    {
+        "address": "0x0400000C",
+        "size": 16,
+        "access": "rw",
+        "human_name": "background 2 control",
+        "alt_name": null
+    },
+    "bg3cnt":
+    {
+        "address": "0x0400000E",
+        "size": 16,
+        "access": "rw",
+        "human_name": "background 3 control",
+        "alt_name": null
+    },
+    "bg0hofs":
+    {
+        "address": "0x04000010",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 0 horizontal offset",
+        "alt_name": null
+    },
+    "bg1hofs":
+    {
+        "address": "0x04000014",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 1 horizontal offset",
+        "alt_name": null
+    },
+    "bg2hofs":
+    {
+        "address": "0x04000018",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 2 horizontal offset",
+        "alt_name": null
+    },
+    "bg3hofs":
+    {
+        "address": "0x0400001C",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 3 horizontal offset",
+        "alt_name": null
+    },
+    "bg0vofs":
+    {
+        "address": "0x04000012",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 0 vertical offset",
+        "alt_name": null
+    },
+    "bg1vofs":
+    {
+        "address": "0x04000016",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 1 vertical offset",
+        "alt_name": null
+    },
+    "bg2vofs":
+    {
+        "address": "0x0400001A",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 2 vertical offset",
+        "alt_name": null
+    },
+    "bg3vofs":
+    {
+        "address": "0x0400001E",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 3 vertical offset",
+        "alt_name": null
+    },
+    "bg2pa":
+    {
+        "address": "0x04000020",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 2 affine parameter A",
+        "alt_name": null
+    },
+    "bg2pb":
+    {
+        "address": "0x04000022",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 2 affine parameter B",
+        "alt_name": null
+    },
+    "bg2pc":
+    {
+        "address": "0x04000024",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 2 affine parameter C",
+        "alt_name": null
+    },
+    "bg2pd":
+    {
+        "address": "0x04000026",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 2 affine parameter D",
+        "alt_name": null
+    },
+    "bg2x":
+    {
+        "address": "0x04000028",
+        "size": 32,
+        "access": "w",
+        "human_name": "background 2 reference point X",
+        "alt_name": null
+    },
+    "bg2y":
+    {
+        "address": "0x0400002C",
+        "size": 32,
+        "access": "w",
+        "human_name": "background 2 reference point Y",
+        "alt_name": null
+    },
+    "bg3pa":
+    {
+        "address": "0x04000030",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 3 affine parameter A",
+        "alt_name": null
+    },
+    "bg3pb":
+    {
+        "address": "0x04000032",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 3 affine parameter B",
+        "alt_name": null
+    },
+    "bg3pc":
+    {
+        "address": "0x04000034",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 3 affine parameter C",
+        "alt_name": null
+    },
+    "bg3pd":
+    {
+        "address": "0x04000036",
+        "size": 16,
+        "access": "w",
+        "human_name": "background 3 affine parameter D",
+        "alt_name": null
+    },
+    "bg3x":
+    {
+        "address": "0x04000038",
+        "size": 32,
+        "access": "w",
+        "human_name": "background 3 reference point X",
+        "alt_name": null
+    },
+    "bg3y":
+    {
+        "address": "0x0400003C",
+        "size": 32,
+        "access": "w",
+        "human_name": "background 3 reference point Y",
+        "alt_name": null
+    },
+    "win0h":
+    {
+        "address": "0x04000040",
+        "size": 16,
+        "access": "w",
+        "human_name": "window 0 horizontal dimensions",
+        "alt_name": null
+    },
+    "win1h":
+    {
+        "address": "0x04000042",
+        "size": 16,
+        "access": "w",
+        "human_name": "window 1 horizontal dimensions",
+        "alt_name": null
+    },
+    "win0v":
+    {
+        "address": "0x04000044",
+        "size": 16,
+        "access": "w",
+        "human_name": "window 0 vertical dimensions",
+        "alt_name": null
+    },
+    "win1v":
+    {
+        "address": "0x04000046",
+        "size": 16,
+        "access": "w",
+        "human_name": "window 1 vertical dimensions",
+        "alt_name": null
+    },
+    "winin":
+    {
+        "address": "0x04000048",
+        "size": 16,
+        "access": "rw",
+        "human_name": "display layer mask inside windows",
+        "alt_name": null
+    },
+    "winout":
+    {
+        "address": "0x0400004A",
+        "size": 16,
+        "access": "rw",
+        "human_name": "display layer mask outside windows",
+        "alt_name": null
+    },
+    "mosaic":
+    {
+        "address": "0x0400004C",
+        "size": 16,
+        "access": "w",
+        "human_name": "mosaic size",
+        "alt_name": null
+    },
+    "bldcnt":
+    {
+        "address": "0x04000050",
+        "size": 16,
+        "access": "rw",
+        "human_name": "blend control",
+        "alt_name": null
+    },
+    "bldalpha":
+    {
+        "address": "0x04000052",
+        "size": 16,
+        "access": "rw",
+        "human_name": "blend alpha",
+        "alt_name": null
+    },
+    "bldy":
+    {
+        "address": "0x04000054",
+        "size": 16,
+        "access": "w",
+        "human_name": "blend gamma",
+        "alt_name": null
+    }
+}

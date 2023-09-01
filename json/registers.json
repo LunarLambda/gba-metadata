@@ -294,5 +294,245 @@
         "access": "w",
         "human_name": "blend gamma",
         "alt_name": null
+    },
+    "dma0sad":
+    {
+        "address": "0x040000B0",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 0 source address",
+        "alt_name": "dma0src"
+    },
+    "dma0dad":
+    {
+        "address": "0x040000B4",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 0 destination address",
+        "alt_name": "dma0dst"
+    },
+    "dma0cnt_l":
+    {
+        "address": "0x040000B8",
+        "size": 16,
+        "access": "w",
+        "human_name": "DMA 0 transfer length",
+        "alt_name": "dma0len"
+    },
+    "dma0cnt_h":
+    {
+        "address": "0x040000BA",
+        "size": 16,
+        "access": "rw",
+        "human_name": "DMA 0 control",
+        "alt_name": "dma0cnt"
+    },
+    "dma1sad":
+    {
+        "address": "0x040000BC",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 1 source address",
+        "alt_name": "dma1src"
+    },
+    "dma1dad":
+    {
+        "address": "0x040000C0",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 1 destination address",
+        "alt_name": "dma1dst"
+    },
+    "dma1cnt_l":
+    {
+        "address": "0x040000C4",
+        "size": 16,
+        "access": "w",
+        "human_name": "DMA 1 transfer length",
+        "alt_name": "dma1len"
+    },
+    "dma1cnt_h":
+    {
+        "address": "0x040000C6",
+        "size": 16,
+        "access": "rw",
+        "human_name": "DMA 1 control",
+        "alt_name": "dma1cnt"
+    },
+    "dma2sad":
+    {
+        "address": "0x040000C8",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 2 source address",
+        "alt_name": "dma2src"
+    },
+    "dma2dad":
+    {
+        "address": "0x040000CC",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 2 destination address",
+        "alt_name": "dma2dst"
+    },
+    "dma2cnt_l":
+    {
+        "address": "0x040000D0",
+        "size": 16,
+        "access": "w",
+        "human_name": "DMA 2 transfer length",
+        "alt_name": "dma2len"
+    },
+    "dma2cnt_h":
+    {
+        "address": "0x040000D2",
+        "size": 16,
+        "access": "rw",
+        "human_name": "DMA 2 control",
+        "alt_name": "dma2cnt"
+    },
+    "dma3sad":
+    {
+        "address": "0x040000D4",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 3 source address",
+        "alt_name": "dma3src"
+    },
+    "dma3dad":
+    {
+        "address": "0x040000D8",
+        "size": 32,
+        "access": "w",
+        "human_name": "DMA 3 destination address",
+        "alt_name": "dma3dst"
+    },
+    "dma3cnt_l":
+    {
+        "address": "0x040000DC",
+        "size": 16,
+        "access": "w",
+        "human_name": "DMA 3 transfer length",
+        "alt_name": "dma3len"
+    },
+    "dma3cnt_h":
+    {
+        "address": "0x040000DE",
+        "size": 16,
+        "access": "rw",
+        "human_name": "DMA 3 control",
+        "alt_name": "dma3cnt"
+    },
+    "tm0cnt_l":
+    {
+        "address": "0x04000100",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 0 reload/counter",
+        "alt_name": "tm0val"
+    },
+    "tm0cnt_h":
+    {
+        "address": "0x04000102",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 0 control",
+        "alt_name": "tm0cnt"
+    },
+    "tm1cnt_l":
+    {
+        "address": "0x04000104",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 1 reload/counter",
+        "alt_name": "tm1val"
+    },
+    "tm1cnt_h":
+    {
+        "address": "0x04000106",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 1 control",
+        "alt_name": "tm1cnt"
+    },
+    "tm2cnt_l":
+    {
+        "address": "0x04000108",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 2 reload/counter",
+        "alt_name": "tm2val"
+    },
+    "tm2cnt_h":
+    {
+        "address": "0x0400010A",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 2 control",
+        "alt_name": "tm2cnt"
+    },
+    "tm3cnt_l":
+    {
+        "address": "0x0400010C",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 3 reload/counter",
+        "alt_name": "tm3val"
+    },
+    "tm3cnt_h":
+    {
+        "address": "0x0400010E",
+        "size": 16,
+        "access": "rw",
+        "human_name": "timer 3 control",
+        "alt_name": "tm3cnt"
+    },
+    "keyinput":
+    {
+        "address": "0x04000130",
+        "size": 16,
+        "access": "r",
+        "human_name": "keypad input",
+        "alt_name": null
+    },
+    "keycnt":
+    {
+        "address": "0x04000132",
+        "size": 16,
+        "access": "rw",
+        "human_name": "keypad interrupt control",
+        "alt_name": null
+    },
+    "ie":
+    {
+        "address": "0x04000200",
+        "size": 16,
+        "access": "rw",
+        "human_name": "interrupt enable",
+        "alt_name": null
+    },
+    "if":
+    {
+        "address": "0x04000202",
+        "size": 16,
+        "access": "rw",
+        "human_name": "interrupt flags",
+        "alt_name": null
+    },
+    "waitcnt":
+    {
+        "address": "0x04000204",
+        "size": 16,
+        "access": "rw",
+        "human_name": "waitstate control",
+        "alt_name": null
+    },
+    "ime":
+    {
+        "address": "0x04000208",
+        "size": 1,
+        "access": "rw",
+        "human_name": "interrupt master enable",
+        "alt_name": null
     }
 }
